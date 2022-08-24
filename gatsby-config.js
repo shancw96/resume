@@ -1,7 +1,7 @@
 module.exports = {
   pathPrefix: '/',
   siteMetadata: {
-    title: 'Resume Generator',
+    title: 'shancw resume',
     githubUrl: 'https://github.com/visiky/resume.git',
     author: 'visiky',
     contact: 'https://github.com/visiky',
