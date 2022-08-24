@@ -4,7 +4,7 @@ import {
   MobileFilled,
   MailFilled,
   GithubFilled,
-  ZhihuCircleFilled,
+  ChromeFilled,
   TrophyFilled,
   CheckCircleFilled,
   ScheduleFilled,
@@ -80,7 +80,12 @@ export const Template1: React.FC<Props> = props => {
       <div className="basic-info">
         {/* 头像 */}
         {!value?.avatar?.hidden && (
-          <Avatar avatarSrc={value?.avatar?.src} className="avatar" shape={value?.avatar?.shape} size={value?.avatar?.size} />
+          <Avatar
+            avatarSrc={value?.avatar?.src}
+            className="avatar"
+            shape={value?.avatar?.shape}
+            size={value?.avatar?.size}
+          />
         )}
         {/* 个人信息 */}
         <div className="profile">
@@ -111,18 +116,16 @@ export const Template1: React.FC<Props> = props => {
                 </span>
               </div>
             )}
-            {profile?.zhihu && (
+            {profile?.blog && (
               <div className="github">
-                <ZhihuCircleFilled
-                  style={{ color: theme.color, opacity: 0.85 }}
-                />
+                <ChromeFilled style={{ color: theme.color, opacity: 0.85 }} />
                 <span
                   style={{ cursor: 'pointer' }}
                   onClick={() => {
-                    window.open(profile.zhihu);
+                    window.open(profile.blog);
                   }}
                 >
-                  {profile.zhihu}
+                  {profile.blog}
                 </span>
               </div>
             )}
