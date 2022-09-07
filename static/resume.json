@@ -65,11 +65,6 @@
       "skill_name": "Vue",
       "skill_desc": "中小型前端项目开发经验，可独立完成模块开发，熟练使用vue全家桶开发。",
       "skill_level": 75
-    },
-    {
-      "skill_name": "Java",
-      "skill_desc": "了解java常用API，了解基于spring的Restful风格 相关开发流程，并有过相关开发经验",
-      "skill_level": 50
     }
   ],
   "projectList": [
