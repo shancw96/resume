@@ -31,7 +31,7 @@
       "company_name": "昆山华信（华信富融）软件技术有限公司",
       "department_name": "",
       "work_time": ["2020.04", null],
-      "work_desc": "近2年，从一名实习晋升为前端组长。深度参与了新能源相关项目（三峡，光伏建管）的研发"
+      "work_desc": "近3年，从一名实习晋升为前端组长。深度参与了新能源相关项目（三峡，光伏建管）的研发"
     },
     {
       "company_name": "师创教育软件技术有限公司",
@@ -48,7 +48,7 @@
     },
     {
       "skill_name": "JavaScript",
-      "skill_desc": "",
+      "skill_desc": "熟悉JS相关特性，了解函数式编程思维，对代码可读性有较高要求",
       "skill_level": 90
     },
     {
@@ -58,13 +58,18 @@
     },
     {
       "skill_name": "React",
-      "skill_desc": "中型前端项目开发经验，可负责常规前端项目架构实现",
+      "skill_desc": "有中型前端项目开发经验，熟悉常规项目的开发技术栈，了解该框架的底层实现",
       "skill_level": 80
     },
     {
       "skill_name": "Vue",
-      "skill_desc": "中小型前端项目开发经验，可独立完成模块开发",
+      "skill_desc": "中小型前端项目开发经验，可独立完成模块开发，熟练使用vue全家桶开发。",
       "skill_level": 75
+    },
+    {
+      "skill_name": "Java",
+      "skill_desc": "了解java常用API，了解基于spring的Restful风格 相关开发流程，并有过相关开发经验",
+      "skill_level": 50
     }
   ],
   "projectList": [
@@ -73,25 +78,25 @@
       "project_role": "前端开发",
       "project_time": "2020.04 ~ 2020.11",
       "project_desc": "web前端报告生成项目，在线编辑报告，并根据相关大坝数据生成过程线,对大坝工程图纸，进行编辑标记，从而生成年报，周报，月报word。基于nuxt（vue2全家桶，elementUI，axios...），作为子模块应用在三峡，国电投，等大坝项目中。",
-      "project_content": "\n1. 实习时负责将此项目集成到其他大坝并修复bug。\n2. 转正后独立负责工程图纸标记功能开发"
+      "project_content": "\n1. 实习时负责将此项目集成到其他大坝并修复bug。\n2. 转正后独立负责工程图纸标记功能从0->1的开发（基于canvas的Konva 图形化操作）"
     },
     {
       "project_name": "三峡管理平台 - web某模块",
       "project_role": "前端核心开发",
       "project_time": "2020.11 ~ 2021.05",
-      "project_desc": "三峡web项目其中一个模块的开发负责，基于nuxt（vue2全家桶，elementUI，axios...），围绕数据审批及统计进行开发。具体细节涉及到保密协议，不方便透露",
-      "project_content": "常规开发流程，核心开发，主要负责通用组件封装与基础框架构建。"
+      "project_desc": "三峡web项目其中一个模块的开发负责，围绕数据审批及统计进行开发。，技术栈为nuxt，vue2全家桶，elementUI，axios...，",
+      "project_content": "该模块的核心开发，除业务功能开发外，还负责通用组件封装（如目录树）"
     },
     {
       "project_name": "光伏项目智慧建设管理平台",
-      "project_role": "前端负责人",
-      "project_time": "2021.05 - 至今",
-      "project_desc": "新能源项目，为国内外光伏板建设项目提供配套的软件系统，科学管理人员，提高建设效率。包括web后台管理（React，Redux，chakraUI，ant design），web大屏（Vue全家桶，tailwind，elementUI） + app（React Native， Native Base UI）。",
-      "project_content": "前端开发leader，兼任开发负责人，负责前端项目从0到1的框架设计和开发以及难点问题解决。"
+      "project_role": "前端组长",
+      "project_time": "2021.05 - 2022.10",
+      "project_desc": "新能源项目，OA系统的变种，为国内外光伏板建设项目提供配套的软件系统，科学管理人员，提高建设效率。技术栈包括web后台管理（React，Redux，chakraUI，ant design），web大屏（Vue全家桶，tailwind，elementUI） + app（React Native， Native Base UI）。",
+      "project_content": "前端开发组长，深度参与该项目的开发，负责通用组件封装，及难点内容的解决"
     }
   ],
   "workList": [],
   "aboutme": {
-    "aboutme_desc": "自驱型前端工程师，注重知识积累，参与并主导多个中大型项目开发。"
+    "aboutme_desc": "自驱型前端工程师，熟悉React及Vue技术栈，有自己的技术博客，注重知识积累, 参与并主导过多个中小型项目。了解基于spring的后端技术（Java, spring, jpa, mysql）"
   }
 }
